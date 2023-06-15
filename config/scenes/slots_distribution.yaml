@@ -18,4 +18,4 @@ outbound:
 
   slots_group:
    - {name: "robot_box"}
-   - {name: "human_box"}
+   # - {name: "human_box"}
