@@ -1,0 +1,10 @@
+object_geometries:
+  robot_bottle:       {mesh: "package://hrc_case_study_descriptions/mesh/bottle.STL", scale:[0.001, 0.001, 0.001], color: [0.93333333, 0.89019608, 0.79607843,  1]}
+  both_agents_bottle: {mesh: "package://hrc_case_study_descriptions/mesh/bottle.STL", scale:[0.001, 0.001, 0.001], color: [0.79216, 0.81961, 0.93333, 1]}
+
+  bottle_human_1:        {mesh: "package://hrc_case_study_descriptions/mesh/bottle.STL", scale:[0.001, 0.001, 0.001], color: [0.79216, 0.81961, 0.93333, 1]}
+  bottle_human_2:        {mesh: "package://hrc_case_study_descriptions/mesh/bottle.STL", scale:[0.001, 0.001, 0.001], color: [0.79216, 0.81961, 0.93333, 1]}
+  bottle_human_3:        {mesh: "package://hrc_case_study_descriptions/mesh/bottle.STL", scale:[0.001, 0.001, 0.001], color: [0.79216, 0.81961, 0.93333, 1]}
+  bottle_human_4:        {mesh: "package://hrc_case_study_descriptions/mesh/bottle.STL", scale:[0.001, 0.001, 0.001], color: [0.79216, 0.81961, 0.93333, 1]}
+  bottle_human_5:        {mesh: "package://hrc_case_study_descriptions/mesh/bottle.STL", scale:[0.001, 0.001, 0.001], color: [0.79216, 0.81961, 0.93333, 1]}
+  bottle_human_6:        {mesh: "package://hrc_case_study_descriptions/mesh/bottle.STL", scale:[0.001, 0.001, 0.001], color: [0.79216, 0.81961, 0.93333, 1]}

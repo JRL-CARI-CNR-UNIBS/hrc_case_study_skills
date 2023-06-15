@@ -1,0 +1,22 @@
+inbound:
+  objects:
+  - {type: "robot_bottle",  frame: "robot_bottles_link",        position: [0.1, 0.05, 0.0],  quaternion: [0, 0, 0, 1], inbound: "robot_box"}
+  - {type: "robot_bottle",  frame: "robot_bottles_link",        position: [0.2, 0.05, 0.0],  quaternion: [0, 0, 0, 1], inbound: "robot_box"}
+  - {type: "robot_bottle",  frame: "robot_bottles_link",        position: [0.3, 0.05, 0.0],  quaternion: [0, 0, 0, 1], inbound: "robot_box"}
+  - {type: "robot_bottle",  frame: "robot_bottles_link",        position: [0.1, 0.15, 0.0],  quaternion: [0, 0, 0, 1], inbound: "robot_box"}
+  - {type: "robot_bottle",  frame: "robot_bottles_link",        position: [0.2, 0.15, 0.0],  quaternion: [0, 0, 0, 1], inbound: "robot_box"}
+  - {type: "robot_bottle",  frame: "robot_bottles_link",        position: [0.3, 0.15, 0.0],  quaternion: [0, 0, 0, 1], inbound: "robot_box"}
+
+  # - {type: "user_bottle", frame: "user_bottles_link",        position: [0, 0, 0], quaternion: [0, 0, 0, 1], inbound: "human_box"}
+  # - {type: "user_bottle", frame: "user_bottles_link",        position: [0, 0.1, 0], quaternion: [0, 0, 0, 1], inbound: "human_box"}
+  # - {type: "user_bottle", frame: "user_bottles_link",        position: [0, 0.2, 0], quaternion: [0, 0, 0, 1], inbound: "human_box"}
+  # - {type: "user_bottle", frame: "user_bottles_link",        position: [0.1, 0, 0], quaternion: [0, 0, 0, 1], inbound: "human_box"}
+  # - {type: "user_bottle", frame: "user_bottles_link",        position: [0.1, 0.1, 0], quaternion: [0, 0, 0, 1], inbound: "human_box"}
+  # - {type: "user_bottle", frame: "user_bottles_link",        position: [0.1, 0.2, 0], quaternion: [0, 0, 0, 1], inbound: "human_box"}
+
+  - {type: "both_agents_bottle",   frame: "both_agents_bottles_link", position: [0.1, 0.05, 0.05],  quaternion: [0, 0, 0, 1], inbound: "both_agents_box"}
+  - {type: "both_agents_bottle",   frame: "both_agents_bottles_link", position: [0.2, 0.05, 0.05],  quaternion: [0, 0, 0, 1], inbound: "both_agents_box"}
+  - {type: "both_agents_bottle",   frame: "both_agents_bottles_link", position: [0.1, 0.15, 0.05],  quaternion: [0, 0, 0, 1], inbound: "both_agents_box"}
+  - {type: "both_agents_bottle",   frame: "both_agents_bottles_link", position: [0.2, 0.15, 0.05],  quaternion: [0, 0, 0, 1], inbound: "both_agents_box"}
+  - {type: "both_agents_bottle",   frame: "both_agents_bottles_link", position: [0.1, 0.25, 0.05],  quaternion: [0, 0, 0, 1], inbound: "both_agents_box"}
+  - {type: "both_agents_bottle",   frame: "both_agents_bottles_link", position: [0.2, 0.25, 0.05],  quaternion: [0, 0, 0, 1], inbound: "both_agents_box"}

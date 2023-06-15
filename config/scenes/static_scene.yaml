@@ -1,0 +1,15 @@
+scene_objects:
+- {type: "bottle_human_1", frame: "user_bottles_link", position: [0, 0, 0], quaternion: [0, 0, 0, 1]}
+- {type: "bottle_human_2", frame: "user_bottles_link", position: [0, 0.1 ,0], quaternion: [0, 0, 0, 1]}
+- {type: "bottle_human_3", frame: "user_bottles_link", position: [0, 0.2 ,0], quaternion: [0, 0, 0, 1]}
+- {type: "bottle_human_4", frame: "user_bottles_link", position: [0.1, 0 ,0], quaternion: [0, 0, 0, 1]}
+- {type: "bottle_human_5", frame: "user_bottles_link", position: [0.1, 0.1 ,0], quaternion: [0, 0, 0, 1]}
+- {type: "bottle_human_6", frame: "user_bottles_link", position: [0.1, 0.2 ,0], quaternion: [0, 0, 0, 1]}
+
+
+  # - {xyz: "0 0 0", rpy: "0 0 0"}
+  # - {xyz: "0 0.1 0", rpy: "0 0 0"}
+  # - {xyz: "0 0.2 0", rpy: "0 0 0"}
+  # - {xyz: "0.1 0 0", rpy: "0 0 0"}
+  # - {xyz: "0.1 0.1 0", rpy: "0 0 0"}
+  # - {xyz: "0.1 0.2 0", rpy: "0 0 0"}

@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+
+<launch>
+
+  <include file="$(find sharework_task_planning)/launch/task_planner_interface_real.launch">
+  </include>
+  <include file="$(find reactive_task_planner_dispatcher)/launch/test_tree.launch">
+  </include>
+  <include file="$(find mqtt_scene_integration)/launch/sharework.launch">
+  </include>
+  <include file="$(find rosbridge_server)/launch/rosbridge_websocket.launch">
+    <arg name="address" value="192.168.10.105"/>
+  </include>
+</launch>
