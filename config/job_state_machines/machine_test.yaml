@@ -1,0 +1,36 @@
+subjobs_list:
+
+  first_state:
+    next_state_if_success: "probe_resistor"
+    next_state_if_fail: "FAIL"
+    type: Script
+    name: "pick_probe.urp"
+  probe_resistor:
+    next_state_if_success: "release_resistor"
+    next_state_if_fail: "FAIL"
+    type: Script
+    name: "probe_resistor.urp"
+  release_resistor:
+    next_state_if_success: "SUCCESS"
+    next_state_if_fail: "FAIL"
+    type: Script
+    name: "release_probe.urp"
+
+initial_state: first_state
+
+
+  # move_on_resistor:
+  #   next_state_if_success: "SUCCESS"
+  #   next_state_if_fail: "FAIL"
+  #   type: RelativeMove
+  #   frame: probe
+  #   traXmm: 13
+  #   traYmm: 305
+  #   traZmm: 32
+  #   linear_velocity_mm_s: 50
+
+  # close:
+  #   next_state_if_success: "SUCCESS"
+  #   next_state_if_fail: "FAIL"
+  #   type: Script
+  #   name: "close_gripper.urp"

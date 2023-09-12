@@ -1,0 +1,9 @@
+subjobs_list:
+
+  pause_for_photo:
+    next_state_if_success: "SUCCESS"
+    next_state_if_fail: "FAIL"
+    type: Script
+    name: "localization.urp"
+
+initial_state: pause_for_photo

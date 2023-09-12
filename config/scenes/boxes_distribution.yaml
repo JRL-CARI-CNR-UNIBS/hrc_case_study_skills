@@ -1,5 +1,8 @@
+
 inbound:
   boxes:
-  - {name: "robot_box",       frame: "robot_bottles_link",       position: [ 0.05, 0.1, 0.35], quaternion: [1, 0, 0, 0], approach_distance: [0, 0, -0.1], leave_distance: [0, 0, -0.1] }
-  # - {name: "human_box",       frame: "user_bottles_link",        position: [ 0.05, 0.1, 0.35], quaternion: [1, 0, 0, 0], approach_distance: [0, 0, -0.1], leave_distance: [0, 0, -0.1] }
-  - {name: "both_agents_box", frame: "both_agents_bottles_link", position: [ 0.05, 0.1, 0.35], quaternion: [1, 0, 0, 0], approach_distance: [0, 0, -0.1], leave_distance: [0, 0, -0.1] }
+    - {name: "AAA_box",       frame: "table",       position: [0.175, 0.870, 0.328], quaternion: [1.000, 0.001, -0.001, -0.004], approach_distance: [0, 0, -0.05], leave_distance: [0, 0, -0.05] }
+
+  # - {name: "AAA_box",       frame: "table",       position: [0.175, 0.870, 0.328], quaternion: [0.708, -0.706, -0.004, -0.002], approach_distance: [0, 0, -0.05], leave_distance: [0, 0, -0.05] }
+  # # - {name: "human_box",       frame: "user_bottles_link",        position: [ 0.05, 0.1, 0.35], quaternion: [1, 0, 0, 0], approach_distance: [0, 0, -0.1], leave_distance: [0, 0, -0.1] }
+  # - {name: "both_agents_box", frame: "both_agents_bottles_link", position: [ 0.05, 0.1, 0.35], quaternion: [1, 0, 0, 0], approach_distance: [0, 0, -0.1], leave_distance: [0, 0, -0.1] }

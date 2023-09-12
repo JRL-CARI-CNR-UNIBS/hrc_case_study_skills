@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<launch>
+  <rosparam command="load" ns="machine_test" file="$(find hrc_case_study_skills)/config/subtasks/machine_test.yaml"/>
+  <rosparam command="load" ns="board_localization" file="$(find hrc_case_study_skills)/config/subtasks/board_localization.yaml"/>
+  <rosparam command="load" ns="remove_plug" file="$(find hrc_case_study_skills)/config/subtasks/remove_plug.yaml"/>
+
+</launch>

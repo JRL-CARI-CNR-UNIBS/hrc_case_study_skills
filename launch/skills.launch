@@ -25,6 +25,8 @@
 <!-- <node pkg="sharework_cembre_skills" type="load_group.py" name="load_group_1"/>
 <node pkg="sharework_cembre_skills" type="linear_guide.py" name="script_exec"  output="screen"/>
  -->
+ <node pkg="sharework_cembre_skills" type="linear_guide.py" name="script_exec"  output="screen"/>
+
 <include file="$(find hrc_case_study_skills)/launch/goto.launch">
 <arg name="debug" value="$(arg debug)"/>
 <arg name="load_param" value="$(arg load_param)"/>
@@ -32,14 +34,14 @@
 <arg name="baseline" value="$(arg baseline)"/>
 </include>
 
-<!-- <include file="$(find hrc_case_study_skills)/launch/recipes_sharework.launch">
-</include> -->
+<include file="$(find hrc_case_study_skills)/launch/subtasks.launch">
+</include>
 
 <!-- <include file="$(find sharework_cembre_skills)/launch/connessioni.launch">
 </include> -->
 
-<!-- <include file="$(find hrc_case_study_skills)/launch/ssm_job_executer.launch">
-</include> -->
+<include file="$(find hrc_case_study_skills)/launch/ssm_job_executer.launch">
+</include>
 
 <include file="$(find hrc_case_study_skills)/launch/static_scene.launch">
 </include>

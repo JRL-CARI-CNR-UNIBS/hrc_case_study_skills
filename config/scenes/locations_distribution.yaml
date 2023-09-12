@@ -1,2 +1,13 @@
 go_to_location:
-  - {name: "home", frame: "table", position: [-0.150, 0.888, 0.448], quaternion: [0.707,  0.707, 0.000, -0.000]}
+  # world <- open_tip
+  # - {name: "home", frame: "world", position: [0.392, 0.229, 1.426], quaternion: [0.707, -0.707, -0.001, 0.001]}
+  - {name: "home", frame: "world", position: [-0.027, -0.111, 1.365], quaternion: [0.708, -0.706, -0.004, -0.002]}
+  - {name: "ur5_away", frame: "world", position: [-0.027, -0.111, 1.365], quaternion: [0.708, -0.706, -0.004, -0.002]}
+
+  - {name: "probe", frame: "world", position: [-0.136, -0.722, 1.136], quaternion: [-0.401, 0.916, 0.017, 0.017]}
+  - {name: "localization", frame: "world", position: [-0.319, -0.568, 1.242], quaternion: [0.714, 0.700, 0.003, -0.011]}
+  - {name: "plug", frame: "world", position: [-0.531, -0.667, 1.115], quaternion: [0.707, 0.707, -0.001, -0.001]}
+
+  # insert plug
+# - Translation: [-0.441, -0.877, 1.247]
+# - Rotation: in Quaternion [0.687, 0.024, -0.012, 0.726]

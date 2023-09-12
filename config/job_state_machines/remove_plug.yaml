@@ -1,0 +1,13 @@
+subjobs_list:
+
+  remove_plug:
+    next_state_if_success: "insert_plug"
+    next_state_if_fail: "FAIL"
+    type: Script
+    name: "remove_plug.urp"
+  insert_plug:
+    next_state_if_success: "SUCCESS"
+    next_state_if_fail: "FAIL"
+    type: Script
+    name: "insert_plug.urp"
+initial_state: remove_plug
