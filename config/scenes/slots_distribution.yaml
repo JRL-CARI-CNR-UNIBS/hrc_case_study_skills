@@ -1,21 +1,18 @@
 outbound:
-  slots: []
-# Robot slot
-  # - {name: "AR1", slots_group: "robot_box", frame: "world", max_objects: 1, position: [0.1, 0.05, 0.4], quaternion: [1, 0, 0, 0], approach_distance: [0, 0, -0.07], leave_distance: [0, 0, -0.07]}
-  # - {name: "AR2", slots_group: "robot_box", frame: "world", max_objects: 1, position: [0.2, 0.05, 0.4], quaternion: [1, 0, 0, 0], approach_distance: [0, 0, -0.07], leave_distance: [0, 0, -0.07]}
-  # - {name: "AR3", slots_group: "robot_box", frame: "robot_box_link", max_objects: 1, position: [0.3, 0.05, 0.4], quaternion: [1, 0, 0, 0], approach_distance: [0, 0, -0.07], leave_distance: [0, 0, -0.07]}
-  # - {name: "BR1", slots_group: "robot_box", frame: "robot_box_link", max_objects: 1, position: [0.1, 0.15, 0.5], quaternion: [1, 0, 0, 0], approach_distance: [0, 0, -0.07], leave_distance: [0, 0, -0.07]}
-  # - {name: "BR2", slots_group: "robot_box", frame: "robot_box_link", max_objects: 1, position: [0.2, 0.15, 0.5], quaternion: [1, 0, 0, 0], approach_distance: [0, 0, -0.07], leave_distance: [0, 0, -0.07]}
-  # - {name: "BR3", slots_group: "robot_box", frame: "robot_box_link", max_objects: 1, position: [0.3, 0.15, 0.5], quaternion: [1, 0, 0, 0], approach_distance: [0, 0, -0.07], leave_distance: [0, 0, -0.07]}
-# Human slot
-  # - {name: "AH1", slots_group: "human_box", frame: "human_box_link", max_objects: 1, position: [0.1, 0.05, 0.05], quaternion: [1, 0, 0, 0], approach_distance: [0, 0, -0.07], leave_distance: [0, 0, -0.07]}
-  # - {name: "AH2", slots_group: "human_box", frame: "human_box_link", max_objects: 1, position: [0.2, 0.05, 0.05], quaternion: [1, 0, 0, 0], approach_distance: [0, 0, -0.07], leave_distance: [0, 0, -0.07]}
-  # - {name: "AH3", slots_group: "human_box", frame: "human_box_link", max_objects: 1, position: [0.3, 0.05, 0.05], quaternion: [1, 0, 0, 0], approach_distance: [0, 0, -0.07], leave_distance: [0, 0, -0.07]}
-  # - {name: "BH1", slots_group: "human_box", frame: "human_box_link", max_objects: 1, position: [0.1, 0.15, 0.05], quaternion: [1, 0, 0, 0], approach_distance: [0, 0, -0.07], leave_distance: [0, 0, -0.07]}
-  # - {name: "BH2", slots_group: "human_box", frame: "human_box_link", max_objects: 1, position: [0.2, 0.15, 0.05], quaternion: [1, 0, 0, 0], approach_distance: [0, 0, -0.07], leave_distance: [0, 0, -0.07]}
-  # - {name: "BH3", slots_group: "human_box", frame: "human_box_link", max_objects: 1, position: [0.3, 0.15, 0.05], quaternion: [1, 0, 0, 0], approach_distance: [0, 0, -0.07], leave_distance: [0, 0, -0.07]}
+  slots:
+    - {name: "left_eurobox_1",  slots_group: "robot_box", frame: "table", max_objects: 1, position: [-0.29, 1.41, 0.15], quaternion: [1, 0, 0, 0], approach_distance: [0, 0, -0.1], leave_distance: [0, 0, -0.1]}
+    - {name: "left_eurobox_2",  slots_group: "robot_box", frame: "table", max_objects: 1, position: [-0.18, 1.41, 0.15], quaternion: [1, 0, 0, 0], approach_distance: [0, 0, -0.1], leave_distance: [0, 0, -0.1]}
+    - {name: "left_eurobox_3",  slots_group: "robot_box", frame: "table", max_objects: 1, position: [-0.29, 1.47, 0.15], quaternion: [1, 0, 0, 0], approach_distance: [0, 0, -0.1], leave_distance: [0, 0, -0.1]}
+    - {name: "left_eurobox_4",  slots_group: "robot_box", frame: "table", max_objects: 1, position: [-0.18, 1.47, 0.15], quaternion: [1, 0, 0, 0], approach_distance: [0, 0, -0.1], leave_distance: [0, 0, -0.1]}
 
+    - {name: "right_eurobox_1",  slots_group: "robot_box", frame: "table", max_objects: 1, position: [-0.29, 1.66, 0.15], quaternion: [1, 0, 0, 0], approach_distance: [0, 0, -0.1], leave_distance: [0, 0, -0.1]}
+    - {name: "right_eurobox_2",  slots_group: "robot_box", frame: "table", max_objects: 1, position: [-0.18, 1.66, 0.15], quaternion: [1, 0, 0, 0], approach_distance: [0, 0, -0.1], leave_distance: [0, 0, -0.1]}
+    - {name: "right_eurobox_3",  slots_group: "robot_box", frame: "table", max_objects: 1, position: [-0.29, 1.72, 0.15], quaternion: [1, 0, 0, 0], approach_distance: [0, 0, -0.1], leave_distance: [0, 0, -0.1]}
+    - {name: "right_eurobox_4",  slots_group: "robot_box", frame: "table", max_objects: 1, position: [-0.18, 1.72, 0.15], quaternion: [1, 0, 0, 0], approach_distance: [0, 0, -0.1], leave_distance: [0, 0, -0.1]}
+
+    # - {name: "left_eurobox_1",  slots_group: "robot_box", frame: "table", max_objects: 4, position: [-0.254, 1.449, 0.15], quaternion: [1, 0, 0, 0], approach_distance: [0, 0, -0.1], leave_distance: [0, 0, -0.1]}
+
+    # - {name: "right_eurobox", slots_group: "robot_box", frame: "table", max_objects: 2, position: [-0.255, 1.689, 0.15], quaternion: [1, 0, 0, 0], approach_distance: [0, 0, -0.1], leave_distance: [0, 0, -0.1]}
 
   slots_group:
    - {name: "robot_box"}
-   # - {name: "human_box"}
