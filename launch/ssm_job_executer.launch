@@ -2,7 +2,7 @@
 <launch>
 
   <node pkg="manipulation_job_base" name="ssm_job" type="ssm_job_exec.py" output="screen">
-    <rosparam command="load" ns="machine_test"         file="$(find hrc_case_study_skills)/config/job_state_machines/machine_test.yaml"/>
+    <rosparam command="load" ns="probe"         file="$(find hrc_case_study_skills)/config/job_state_machines/probe.yaml"/>
     <rosparam command="load" ns="board_localization"         file="$(find hrc_case_study_skills)/config/job_state_machines/board_localization.yaml"/>
     <rosparam command="load" ns="remove_plug"         file="$(find hrc_case_study_skills)/config/job_state_machines/remove_plug.yaml"/>
 
